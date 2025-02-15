@@ -51,8 +51,8 @@ function App() {
       <p>Enter a string of comma or delimiters separated numbers: </p>
       <input className='input' onChange={(e) => setInput(e?.target?.value?.trim())} />
       <button className='button' onClick={() => add(input)}>Calculate</button>
-      <p>{exception}</p>
-      <h3>Total Sum: {total}</h3>
+      <p className='exception-msg'>{exception}</p>
+      <h3 className='total-amt'>Total Sum: {total}</h3>
 
       <p><span style={{fontWeight: 'bold'}}>Note:</span> Possible delimiters are \n, , ', ", `, [, ], (, ), //, */, /, :, ; {`{ }`}</p>
     </div>

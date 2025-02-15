@@ -57,3 +57,11 @@ h1 {
 .button:active {
   background-color: #004085;
 }
+
+.total-amt {
+  color: rgb(24, 190, 24);
+}
+
+.exception-msg {
+  color: orange;
+}
